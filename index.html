@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap" rel="stylesheet" />
+
+
+<!-- Website icon -->
+  <link rel="shortcut icon" href="./images/shopping-online.jpg" type="image/x-icon" />
+
+
+  <!-- Carousel -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.min.css
+">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+
+  <!-- font awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+
+
+
+  <!-- Custom StyleSheet -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <title>Phone Shop</title>
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header id="header" class="header">
+    <div class="navigation">
+      <div class="container">
+        <nav class="nav">
+          <div class="nav__hamburger">
+            <i class="fas fa-bars"></i>
+          </div>
+
+          <div class="nav__logo">
+            <a href="#phone" class="scroll-link">
+              PHONE
+            </a>
+          </div>
+
+          <div class="nav__menu">
+            <div class="menu__top">
+              <span class="nav__category">PHONE</span>
+              <a href="#" class="close__toggle">
+                <i class="fas fa-times"></i> 
+              </a>
+            </div>
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#header" class="nav__link scroll-link">Home</a>
+              </li>
+              <li class="nav__item">
+                <a href="#latest" class="nav__link scroll-link">latest</a>
+              </li>
+              <li class="nav__item">
+                <a href="#news" class="nav__link scroll-link">Blog</a>
+              </li>
+              <li class="nav__item">
+                <a href="#contact" class="nav__link scroll-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="nav__icons">
+            <a href="#" class="icon__item">
+                <i class="fas fa-user"></i>
+            </a>
+
+            <a href="#" class="icon__item">
+                <i class="fas fa-search"></i> 
+            </a>
+
+            <a href="#" class="icon__item">
+                <i class="fas fa-shopping-basket"></i> 
+              <span id="cart__total">0</span>
+            </a>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Hero -->
+    <div class="hero">
+      <div class="glide" id="glide_1">
+        <div class="glide__track" data-glide-el="track">
+          <ul class="glide__slides">
+            <li class="glide__slide">
+              <div class="hero__center">
+                <div class="hero__left">
+                  <span class="">New Inspiration 2021</span>
+                  <h1 class="">PHONES MADE FOR YOU!</h1>
+                  <p>Trending from mobile and headphone style collection</p>
+                  <a href="https://www.bdshop.com/catalogsearch/result/?q=iphone&aw_affiliate=eyJjYW1wYWlnbl9pZCI6IjciLCJ0cmFmZmljX3NvdXJjZSI6InNoYWtoZWR1bGlzbGFtLmdpdGh1Yi5pb1wvcGhvbmVzaG9wYmQiLCJhY2NvdW50X2lkIjoxMzcwN30" target="_blank"><button class="hero__btn">SHOP NOW</button></a>
+                </div>
+               <div class="hero__right">
+               <div class="hero__img-container">
+                 <img src="images/bannere1.png" 
+                 alt=""
+                 class="banner_01" 
+                 >
+               </div>
+             </div>
+              </div>
+            </li>
+            <li class="glide__slide">
+              <div class="hero__center">
+                <div class="hero__left">
+                  <span>New Inspiration 2021</span>
+                  <h1>PHONES MADE FOR YOU!</h1>
+                  <p>Trending from mobile and headphone style collection</p>
+                  <a href="https://www.bdshop.com/apple-iphone-12-128gb-with-free-apple-20w-usb-c-power-adapter-2pin?aw_affiliate=eyJjYW1wYWlnbl9pZCI6IjciLCJ0cmFmZmljX3NvdXJjZSI6InNoYWtoZWR1bGlzbGFtLmdpdGh1Yi5pb1wvcGhvbmVzaG9wYmQiLCJhY2NvdW50X2lkIjoxMzcwN30" target="_blank"><button class="hero__btn">SHOP NOW</button></a>
+                </div>
+               <div class="hero__right">
+               <div class="hero__img-container">
+                 <img src="images/banner2.png" 
+                 alt=""
+                 class="banner_02" 
+                 >
+               </div>
+             </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="glide__bullets" data-glide-el="controls[nav]">
+          <button class="glide__bullet" data-glide-dir="=0"></button>
+          <button class="glide__bullet" data-glide-dir="=1"></button>
+        </div>
+
+        <div class="glide__arrows" data-glide-el="controls">
+          <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+      <i class="fas fa-arrow-left"></i>
+          </button>
+          <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+      <i class="fas fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <!-- Main -->
+  <main id="main">
+    <div class="container">
+      <!-- Collection -->
+     <section class="section collection" id="collection">
+    <div class="container">
+      <div class="collection__container">
+        <div class="container__box">
+          <div class="img__container">
+            <img src="images/collection_02.png" class="collection_02">
+          </div>
+          <div class="collection__content">
+            <div class="collection__data">
+              <span>New colors Introduced</span>
+              <h1>HEADPHONES</h1>
+              <a href="https://www.bdshop.com/catalogsearch/result/?q=apple+headphone&aw_affiliate=eyJjYW1wYWlnbl9pZCI6IjciLCJ0cmFmZmljX3NvdXJjZSI6InNoYWtoZWR1bGlzbGFtLmdpdGh1Yi5pb1wvcGhvbmVzaG9wYmQiLCJhY2NvdW50X2lkIjoxMzcwN30" target="_blank">SHOP NOW</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="container__box">
+          <div class="img__container">
+            <img src="images/collection_01.png" class="collection_01">
+          </div>
+          <div class="collection__content">
+            <div class="collection__data">
+              <span>Phone Device Present</span>
+              <h1>SMARTPHONES</h1>
+              <a href="https://www.bdshop.com/catalogsearch/result/?q=smartphone&aw_affiliate=eyJjYW1wYWlnbl9pZCI6IjciLCJ0cmFmZmljX3NvdXJjZSI6InNoYWtoZWR1bGlzbGFtLmdpdGh1Yi5pb1wvcGhvbmVzaG9wYmQiLCJhY2NvdW50X2lkIjoxMzcwN30" target="_blank">SHOP NOW</a>
+            </div>
+          </div>
+        </div>
+      </div>          
+    </div>
+  </section>
+      <!-- Latest Products -->
+      <section class="section latest__products" id="latest">
+        <div class="title__container">
+          <div class="section__title active" data-id="Latest Products">
+            <span class="dot"></span>
+            <h1 class="primary__title">Latest Products</h1>
+          </div>
+        </div>
+        <div class="container" data-aos="fade-up" data-aos-duration="1200">
+          <div class="glide" id="glide_2">
+            <div class="glide__track" data-glide-el="track">
+              <ul class="glide__slides latest-center">
+                <li class="glide__slide">
+                  <div class="product">
+                    <div class="product__header">
+                      <img src="images/products/affiliate/alexa.wbem" alt="product">
+                    </div>
+                    <div class="product__footer">
+                  <h3>Amazon Alexa</h3>
+                    <div class="rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                      <div class="product__price">
+                        <h4>৳4,000.00</h4>
+                      </div>
+                      <a href="https://www.bdshop.com/alexa-echo-dot-3-in-bd?aw_affiliate=eyJjYW1wYWlnbl9pZCI6IjciLCJ0cmFmZmljX3NvdXJjZSI6InNoYWtoZWR1bGlzbGFtLmdpdGh1Yi5pb1wvcGhvbmVzaG9wYmRcLyIsImFjY291bnRfaWQiOjEzNzA3fQ" target="_blank"><button type="submit" class="product__btn">Read More</button></a>
+                    </div>
+                   <ul>
+                    <a href="">
+                       <i class="fas fa-eye"></i>
+                    </a> 
+                    <a href="">
+                       <i class="fas fa-heart"></i>
+                    </a>
+                    <a href="">
+                       <i class="fas fa-sync-alt"></i>
+                    </a>
+                </ul>
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="product">
+                    <div class="product__header">
+                      <img src="images/products/affiliate/google chromecast.jpeg" alt="product">
+                    </div>
+                    <div class="product__footer">
+                      <h3>Google Chromecast</h3>
+                     <div class="rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                      <div class="product__price">
+                        <h4>৳3,900.00 </h4>
+                      </div>
+                      <a target="_blank" href="https://www.bdshop.com/google-chromecast-3-in-bd?aw_affiliate=eyJjYW1wYWlnbl9pZCI6IjciLCJ0cmFmZmljX3NvdXJjZSI6InNoYWtoZWR1bGlzbGFtLmdpdGh1Yi5pb1wvcGhvbmVzaG9wYmQiLCJhY2NvdW50X2lkIjoxMzcwN30"><button type="submit" class="product__btn">Read More</button></a>
+                    </div>
+                   <ul>
+                    <a href="">
+                       <i class="fas fa-eye"></i>
+                    </a> 
+                    <a href="">
+                       <i class="fas fa-heart"></i>
+                    </a>
+                    <a href="">
+                       <i class="fas fa-sync-alt"></i>
+                    </a>
+                </ul>
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="product">
+                    <div class="product__header">
+                      <img src="images/products/affiliate/corsair-hs60.jpg" alt="product">
+                    </div>
+                    <div class="product__footer">
+                      <h3>Corsair HS60</h3>
+                      <div class="rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                      <div class="product__price">
+                        <h4>৳6,400.00</h4>
+                      </div>
+                      <a target="_blank" href="https://www.bdshop.com/corsair-hs60-stereo-7-1-gaming-headphone?aw_affiliate=eyJjYW1wYWlnbl9pZCI6IjciLCJ0cmFmZmljX3NvdXJjZSI6InNoYWtoZWR1bGlzbGFtLmdpdGh1Yi5pb1wvcGhvbmVzaG9wYmQiLCJhY2NvdW50X2lkIjoxMzcwN30"><button type="submit" class="product__btn">Read More</button></a>
+                    </div>
+                    <ul>
+                    <a href="">
+                       <i class="fas fa-eye"></i>
+                    </a> 
+                    <a href="">
+                       <i class="fas fa-heart"></i>
+                    </a>
+                    <a href="">
+                       <i class="fas fa-sync-alt"></i>
+                    </a>
+                </ul>
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="product">
+                    <div class="product__header">
+                      <img src="images/products/affiliate/apple-iphone-12.jpg" alt="product">
+                    </div>
+                    <div class="product__footer">
+                      <h3>Apple iPhone 12</h3>
+                     <div class="rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                      <div class="product__price">
+                        <h4>৳124,999.00 </h4>
+                      </div>
+                      <a target="_blank" href="https://www.bdshop.com/apple-iphone-12-128gb-with-free-apple-20w-usb-c-power-adapter-2pin?aw_affiliate=eyJjYW1wYWlnbl9pZCI6IjciLCJ0cmFmZmljX3NvdXJjZSI6InNoYWtoZWR1bGlzbGFtLmdpdGh1Yi5pb1wvcGhvbmVzaG9wYmQiLCJhY2NvdW50X2lkIjoxMzcwN30"><button type="submit" class="product__btn">Read More</button></a>
+                    </div>
+                     <ul>
+                    <a href="">
+                       <i class="fas fa-eye"></i>
+                    </a> 
+                    <a href="">
+                       <i class="fas fa-heart"></i>
+                    </a>
+                    <a href="">
+                       <i class="fas fa-sync-alt"></i>
+                    </a>
+                </ul>
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="product">
+                    <div class="product__header">
+                      <img src="images/products/affiliate/realme-buds-air.jpg" alt="product">
+                    </div>
+                    <div class="product__footer">
+                      <h3>Realme Buds</h3>
+                      <div class="rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                      <div class="product__price">
+                        <h4>৳3,990.00</h4>
+                      </div>
+                      <a target="_blank" href="https://www.bdshop.com/realme-buds-air-neo-bluetooth-true-wireless-headset-white?aw_affiliate=eyJjYW1wYWlnbl9pZCI6IjciLCJ0cmFmZmljX3NvdXJjZSI6InNoYWtoZWR1bGlzbGFtLmdpdGh1Yi5pb1wvcGhvbmVzaG9wYmQiLCJhY2NvdW50X2lkIjoxMzcwN30"><button type="submit" class="product__btn">Read More</button></a>
+                    </div>
+                     <ul>
+                    <a href="">
+                       <i class="fas fa-eye"></i>
+                    </a> 
+                    <a href="">
+                       <i class="fas fa-heart"></i>
+                    </a>
+                    <a href="">
+                       <i class="fas fa-sync-alt"></i>
+                    </a>
+                </ul>
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="product">
+                    <div class="product__header">
+                      <img src="images/products/affiliate/sony-sbh70.jpg" alt="product">
+                    </div>
+                    <div class="product__footer">
+                      <h3>Sony SBH70 Stereo</h3>
+                      <div class="rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                      <div class="product__price">
+                        <h4>৳8,000.00</h4>
+                      </div>
+                      <a href="https://www.bdshop.com/sony-sbh70-stereo-bluetooth-water-resistant-headset-multipoint-nfc?aw_affiliate=eyJjYW1wYWlnbl9pZCI6IjciLCJ0cmFmZmljX3NvdXJjZSI6InNoYWtoZWR1bGlzbGFtLmdpdGh1Yi5pb1wvcGhvbmVzaG9wYmQiLCJhY2NvdW50X2lkIjoxMzcwN30" target="_blank"><button type="submit" class="product__btn">Read More</button></a>
+                    </div>
+                       <ul>
+                    <a href="">
+                       <i class="fas fa-eye"></i>
+                    </a> 
+                    <a href="">
+                       <i class="fas fa-heart"></i>
+                    </a>
+                    <a href="">
+                       <i class="fas fa-sync-alt"></i>
+                    </a>
+                </ul>
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="product">
+                    <div class="product__header">
+                      <img src="images/products/affiliate/samsung-galaxy-m21jpg" alt="product">
+                    </div>
+                    <div class="product__footer">
+                      <h3>Galaxy M21</h3>
+                     <div class="rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                      <div class="product__price">
+                        <h4>৳20,999.00</h4>
+                      </div>
+                      <a href="https://www.bdshop.com/samsung-galaxy-m21-6gb-128gb?aw_affiliate=eyJjYW1wYWlnbl9pZCI6IjciLCJ0cmFmZmljX3NvdXJjZSI6InNoYWtoZWR1bGlzbGFtLmdpdGh1Yi5pb1wvcGhvbmVzaG9wYmQiLCJhY2NvdW50X2lkIjoxMzcwN30" target="_blank"><button type="submit" class="product__btn">Read More</button></a>
+                    </div>
+                     <ul>
+                    <a href="">
+                       <i class="fas fa-eye"></i>
+                    </a> 
+                    <a href="">
+                       <i class="fas fa-heart"></i>
+                    </a>
+                    <a href="">
+                       <i class="fas fa-sync-alt"></i>
+                    </a>
+                </ul>
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="product">
+                    <div class="product__header">
+                      <img src="images/products/affiliate/xiaomi-imilab-kw66.jpg" alt="product">
+                    </div>
+                    <div class="product__footer">
+                      <h3>Xiaomi Imilab KW66</h3>
+                     <div class="rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                      <div class="product__price">
+                        <h4>৳3,100.00 </h4>
+                      </div>
+                      <a href="https://www.bdshop.com/xiaomi-imilab-kw66-smartwatch?aw_affiliate=eyJjYW1wYWlnbl9pZCI6IjciLCJ0cmFmZmljX3NvdXJjZSI6InNoYWtoZWR1bGlzbGFtLmdpdGh1Yi5pb1wvcGhvbmVzaG9wYmQiLCJhY2NvdW50X2lkIjoxMzcwN30" target="_blank"><button type="submit" class="product__btn">Read More</button></a>
+                    </div>
+                     <ul>
+                    <a href="">
+                       <i class="fas fa-eye"></i>
+                    </a> 
+                    <a href="">
+                       <i class="fas fa-heart"></i>
+                    </a>
+                    <a href="">
+                       <i class="fas fa-sync-alt"></i>
+                    </a>
+                </ul>
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="product">
+                    <div class="product__header">
+                      <img src="images/products/affiliate/xiaomi-wireless.jpg" alt="product">
+                    </div>
+                    <div class="product__footer">
+                      <h3>Xiaomi Wireless</h3>
+                     <div class="rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                      <div class="product__price">
+                        <h4>৳2,490.00 </h4>
+                      </div>
+                      <a href="https://www.bdshop.com/xiaomi-wireless-mouse-keyboard-combo?aw_affiliate=eyJjYW1wYWlnbl9pZCI6IjciLCJ0cmFmZmljX3NvdXJjZSI6InNoYWtoZWR1bGlzbGFtLmdpdGh1Yi5pb1wvcGhvbmVzaG9wYmQiLCJhY2NvdW50X2lkIjoxMzcwN30" target="_blank"><button type="submit" class="product__btn">Read More</button></a>
+                    </div>
+                     <ul>
+                    <a href="">
+                       <i class="fas fa-eye"></i>
+                    </a> 
+                    <a href="">
+                       <i class="fas fa-heart"></i>
+                    </a>
+                    <a href="">
+                       <i class="fas fa-sync-alt"></i>
+                    </a>
+                </ul>
+                  </div>
+
+              </ul>
+            </div>
+
+            <div class="glide__arrows" data-glide-el="controls">
+              <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+                <i class="fas fa-arrow-left"></i>
+              </button>
+              <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+                <i class="fas fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+  
+<!-- 
+      <section class="category__section section" id="category">
+        <div class="tab__list">
+          <div class="title__container tabs">
+            <div class="section__titles category__titles ">
+              <div class="section__title filter-btn active" data-id="All Products">
+                <span class="dot"></span>
+                <h1 class="primary__title">All Products</h1>
+              </div>
+            </div>
+            <div class="section__titles">
+              <div class="section__title filter-btn" data-id="Trending Products">
+                <span class="dot"></span>
+                <h1 class="primary__title">Trending Products</h1>
+              </div>
+            </div>
+
+            <div class="section__titles">
+              <div class="section__title filter-btn" data-id="Special Products">
+                <span class="dot"></span>
+                <h1 class="primary__title">Special Products</h1>
+              </div>
+            </div>
+
+            <div class="section__titles">
+              <div class="section__title filter-btn" data-id="Featured Products">
+                <span class="dot"></span>
+                <h1 class="primary__title">Featured Products</h1>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="category__container" data-aos="fade-up" data-aos-duration="1200">
+          <div class="category__center"></div>
+        </div>
+    </div>
+    </section> -->
+
+    <!-- Facility Section -->
+    <section class="facility__section section" id="facility">
+      <div class="container">
+        <div class="facility__contianer" data-aos="fade-up" data-aos-duration="1200">
+          <div class="facility__box">
+            <div class="facility-img__container">
+              <i class="fas fa-plane"></i>
+            </div>
+            <p>FREE SHIPPING WORLD WIDE</p>
+          </div>
+
+          <div class="facility__box">
+            <div class="facility-img__container">
+              <i class="fas fa-money-check-alt"></i>
+            </div>
+            <p>100% MONEY BACK GUARANTEE</p>
+          </div>
+
+          <div class="facility__box">
+            <div class="facility-img__container">
+              <i class="fab fa-cc-apple-pay"></i>
+            </div>
+            <p>MANY PAYMENT GATWAYS</p>
+          </div>
+
+          <div class="facility__box">
+            <div class="facility-img__container">
+            <i class="fas fa-headset"></i>
+            </div>
+            <p>24/7 ONLINE SUPPORT</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    </div>
+
+    <!-- Testimonial Section -->
+    <section class="section testimonial" id="testimonial">
+      <div class="testimonial__container">
+        <div class="glide" id="glide_4">
+          <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+              <li class="glide__slide">
+                <div class="testimonial__box">
+                  <div class="client__image">
+                    <img src="images/profile1.jpg" alt="profile">
+                  </div>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae fuga hic nesciunt tempore
+                    quibusdam consequatur eligendi unde officia ex quae.ipsum dolor sit amet consectetur adipisicing
+                    elit. Recusandae fuga hic nesciunt tempore
+                    quibusdam consequatur eligendi unde officia ex quae.</p>
+                  <div class="client__info">
+                    <h3>John Smith</h3>
+                    <span>Founder at Apple</span>
+                  </div>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="testimonial__box">
+                  <div class="client__image">
+                    <img src="images/profile2.png" alt="profile">
+                  </div>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae fuga hic nesciunt tempore
+                    quibusdam consequatur
+                    eligendi unde officia ex quae.ipsum dolor sit amet consectetur adipisicing elit. Recusandae fuga hic
+                    nesciunt tempore
+                    quibusdam consequatur eligendi unde officia ex quae.adipisicing elit. Recusandae fuga hic
+                    nesciunt tempore
+                    quibusdam consequatur eligendi unde officia ex quae.</p>
+                  <div class="client__info">
+                    <h3>John Smith</h3>
+                    <span>Founder at Apple</span>
+                  </div>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="testimonial__box">
+                  <div class="client__image">
+                    <img src="images/profile3.png" alt="profile">
+                  </div>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae fuga hic nesciunt tempore
+                    quibusdam consequatur
+                    eligendi unde officia ex quae.ipsum dolor sit amet consectetur adipisicing elit. Recusandae fuga hic
+                    nesciunt tempore
+                    quibusdam consequatur eligendi unde officia ex quae.adipisicing elit. Recusandae fuga hic
+                    nesciunt tempore
+                    quibusdam consequatur eligendi unde officia ex quae.</p>
+                  <div class="client__info">
+                    <h3>John Smith</h3>
+                    <span>Founder at Apple</span>
+                  </div>
+                </div>
+
+              </li>
+              <li class="glide__slide">
+                <div class="testimonial__box">
+                  <div class="client__image">
+                    <img src="images/profile4.png" alt="">
+                  </div>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae fuga hic nesciunt tempore
+                    quibusdam consequatur
+                    eligendi unde officia ex quae.adipisicing elit. Recusandae fuga hic
+                    nesciunt tempore
+                    quibusdam consequatur eligendi unde officia ex quae.
+                    hic
+                    nesciunt tempore
+                    quibusdam consequatur eligendi unde officia ex quae.</p>
+                  <div class="client__info">
+                    <h3>John Smith</h3>
+                    <span>Founder at Apple</span>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="glide__bullets" data-glide-el="controls[nav]">
+            <button class="glide__bullet" data-glide-dir="=0"></button>
+            <button class="glide__bullet" data-glide-dir="=1"></button>
+            <button class="glide__bullet" data-glide-dir="=2"></button>
+            <button class="glide__bullet" data-glide-dir="=3"></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--New Section  -->
+    <section class="section news" id="news">
+      <div class="container">
+        <div class="title__container">
+          <div class="section__titles">
+            <div class="section__title active">
+              <span class="dot"></span>
+              <h1 class="primary__title">Phone News</h1>
+            </div>
+          </div>
+        </div>
+        <div class="news__container">
+          <div class="glide" id="glide_5">
+            <div class="glide__track" data-glide-el="track">
+              <ul class="glide__slides">
+                <li class="glide__slide">
+                  <div class="new__card">
+                    <div class="card__header">
+                      <img src="./images/news1.jpg" alt="">
+                    </div>
+                    <div class="card__footer">
+                      <h3>Styling White Shirts After A Cool Day</h3>
+                      <span>By Admin</span>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo praesentium, numquam non
+                        provident rem sed minus natus unde vel modi!</p>
+                      <a href="#"><button>Read More</button></a>
+                    </div>
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="new__card">
+                    <div class="card__header">
+                      <img src="./images/news2.jpg" alt="">
+                    </div>
+                    <div class="card__footer">
+                      <h3>Styling White Shirts After A Cool Day</h3>
+                      <span>By Admin</span>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo praesentium, numquam non
+                        provident rem sed minus natus unde vel modi!</p>
+                      <a href="#"><button>Read More</button></a>
+                    </div>
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="new__card">
+                    <div class="card__header">
+                      <img src="./images/news3.jpg" alt="">
+                    </div>
+                    <div class="card__footer">
+                      <h3>Styling White Shirts After A Cool Day</h3>
+                      <span>By Admin</span>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo praesentium, numquam non
+                        provident rem sed minus natus unde vel modi!</p>
+                      <a href="#"><button>Read More</button></a>
+                    </div>
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="new__card">
+                    <div class="card__header">
+                      <img src="./images/news4.jpg" alt="">
+                    </div>
+                    <div class="card__footer">
+                      <h3>Styling White Shirts After A Cool Day</h3>
+                      <span>By Admin</span>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo praesentium, numquam non
+                        provident rem sed minus natus unde vel modi!</p>
+                      <a href="#"><button>Read More</button></a>
+                    </div>
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="new__card">
+                    <div class="card__header">
+                      <img src="./images/news5.jpg" alt="">
+                    </div>
+                    <div class="card__footer">
+                      <h3>Styling White Shirts After A Cool Day</h3>
+                      <span>By Admin</span>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo praesentium, numquam non
+                        provident rem sed minus natus unde vel modi!</p>
+                      <a href="#"><button>Read More</button></a>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- NewsLetter -->
+    <section class="section newsletter" id="contact">
+      <div class="container">
+        <div class="newsletter__content">
+          <div class="newsletter__data">
+            <h3>SUBSCRIBE TO OUR NEWSLETTER</h3>
+            <p>A short sentence describing what someone will receive by subscribing</p>
+          </div>
+          <form action="#">
+            <input type="email" placeholder="Enter your email address" class="newsletter__email">
+            <a class="newsletter__link" href="#">subscribe</a>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- End Main -->
+
+  <!-- Footer -->
+  <footer id="footer" class="section footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer-top__box">
+          <h3>EXTRAS</h3>
+          <a href="#">Brands</a>
+          <a href="#">Gift Certificates</a>
+          <a href="#">Affiliate</a>
+          <a href="#">Specials</a>
+          <a href="#">Site Map</a>
+        </div>
+        <div class="footer-top__box">
+          <h3>INFORMATION</h3>
+          <a href="#">About Us</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms & Conditions</a>
+          <a href="#">Contact Us</a>
+          <a href="#">Site Map</a>
+        </div>
+        <div class="footer-top__box">
+          <h3>MY ACCOUNT</h3>
+          <a href="#">My Account</a>
+          <a href="#">Order History</a>
+          <a href="#">Wish List</a>
+          <a href="#">Newsletter</a>
+          <a href="#">Returns</a>
+        </div>
+        <div class="footer-top__box">
+          <h3>CONTACT US</h3>
+          <div>
+            <span>
+            <i class="fas fa-home"></i>
+            </span>
+            42 Dream House, Dreammy street, 7131 Dreamville, USA
+          </div>
+          <div>
+            <span>
+              <i class="fas fa-building"></i>               </span>
+            company@gmail.com
+          </div>
+          <div>
+            <span>
+               <i class="fas fa-phone-square"></i>
+            </span>
+            456-456-4512
+          </div>
+          <div>
+            <span>
+              <i class="fas fa-globe-asia"></i>
+            </span>
+            Dream City, USA
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="footer-bottom__box">
+
+      </div>
+      <div class="footer-bottom__box">
+
+      </div>
+    </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+  <!-- PopUp -->
+  <div class="popup hide__popup">
+    <div class="popup__content">
+      <div class="popup__close">
+        <i class="fas fa-times"></i>
+      </div>
+      <div class="popup__left">
+        <div class="popup-img__container">
+          <img class="popup__img" src="./images/popup.jpg" alt="popup">
+        </div>
+      </div>
+      <div class="popup__right">
+        <div class="right__content">
+          <h1>Get Discount <span>30%</span> Off</h1>
+          <p>Sign up to our newsletter and save 30% for you next purchase. No spam, we promise!
+          </p>
+          <form action="#">
+            <input type="email" placeholder="Enter your email..." class="popup__form">
+            <a href="#">Subscribe</a>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Go To -->
+
+  <a href="#header" class="goto-top scroll-link">
+    <i  class="fa fa-arrow-up"></i>
+  </a>
+
+
+  <!-- Glide Carousel Script -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+  <!-- Animate On Scroll -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-- Custom JavaScript -->
+  <script src="./js/products.js"></script>
+  <script src="./js/index.js"></script>
+  <script src="./js/slider.js"></script>
+
+</body>
+
+</html>
